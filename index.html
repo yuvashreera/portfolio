@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Meta Tags and Description about the project -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="author" content="YuvaShree R A">
+        <meta name="description" content="Personal Portfolio Website">
+
+        <!-- Title and Icon -->
+        <link rel="icon" href="./images/Portfolio.jfif" type="image/jpg">
+        <title>Yuva's Portfolio</title>
+
+        <!-- External Stylesheets -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/main.css" type="text/css">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <!-- Roboto -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Dancing -->
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Great Vibes -->
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Roboto&display=swap" rel="stylesheet">
+
+        <!-- Javascript File Attachment -->
+        <script defer src="./js/main.js"></script>
+
+        <!-- Javascript TypingEffect File Attachment -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+    <body>
+
+        <header class="headerContainer">
+
+            <section class="headerContainer__section">
+                <figure class="headerContainer__figure">
+                    <img src="./images/Yuva.jpg" alt="YuvaShree"class="headerContainer__img">
+                </figure>
+                <h1 class="headerContainer__heading">YuvaShree R A</h1>
+                <div class="headerContainer__socialIcons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </section>
+
+            <nav class="headerContainer__nav">
+                <ul class="headerContainer__ul">
+                    <li><a href="#home" class="active"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a href="#about"><i class="fa-solid fa-user"></i>About me</a></li>
+                    <li><a href="#portfolio"><i class="fa-solid fa-briefcase"></i>Portfolio</a></li>
+                    <li><a href="#contact"><i class="fa-solid fa-envelope"></i>Contact</a></li>
+                </ul>
+            </nav>
+
+            <footer>
+                <p>Copyright &copy; 2024 Developed by YuvaShree R A</p>
+            </footer>
+
+        </header> 
+
+        <!-- Mobile Nav Toggle -->
+        <i class="fa-solid fa-bars" id="menuBtn"></i>
+
+        <main>
+            <!-- Home Section -->
+            <article id="home">
+                <section class="home__row">
+                    <h1>Hi, this is<br>YuvaShree R A <span>.</span></h1>
+                    <p>I'm a <span class="autoInput"></span></p>
+                </section>
+            </article>
+
+            <!-- About Section -->
+            <article id="about">
+                <!-- About Me Section -->
+                <h1 class="subHeading">About me</h1>
+                <div class="divider"></div>
+                <p>
+                    <!-- Description about myself -->
+                    Passionate about web development and design, I am a creative individual who enjoys turning ideas into interactive and visually appealing websites. With a strong foundation in front-end technologies and a keen eye for detail, I strive to create seamless user experiences. Constantly learning and adapting to new technologies, I am dedicated to staying at the forefront of the ever-evolving world of web development.
+                </p>
+            
+                <!-- Information Columns -->
+                <div class="about-col">
+                    <!-- Image Column -->
+                    <div class="image-col">
+                        <img src="./images/Yuva.jpg" alt="...">
+                    </div>
+            
+                    <!-- Information Column -->
+                    <div class="infomation-col">
+                        <h1>Software Engineer</h1>
+                        <p>
+                            <!-- Description of my experience -->
+                            I am an accomplished Software Engineer with a proven track record at Applied Data Finance (ADF). In my role, I contributed significantly to diverse projects, showcasing proficiency in key technical skills. My focus encompassed Junit testing and Automation Engineering, utilizing Python frameworks such as pandas, matplotlib, and pytest. Specializing in model-building techniques like logistic regression and XGBoost algorithms, I also played a vital role in documentation initiatives, contributing to Sphinx documentation and implementing Jupyter Book for collaborative knowledge sharing. My experience at ADF not only honed my technical abilities but also equipped me for future challenges in software development and data science.
+                        </p>
+            
+                        <!-- Icons List -->
+                        <div class="icons-list">
+                            <!-- Left Icons List -->
+                            <div class="icons-list__Left">
+                                <nav>
+                                    <ul>
+                                        <li><i class="fa-solid fa-angle-right"></i><strong>Birthday :</strong>
+                                            <span>30th October 2000</span></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><strong>Email :</strong>
+                                            <span>yuvashreera@gmail.com</span></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><strong>City :</strong>
+                                            <span>Madurai, TamilNadu, India</span></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                
+                            <!-- Right Icons List -->
+                            <div class="icons-list__right">
+                                <nav>
+                                    <ul>
+                                        <li><i class="fa-solid fa-angle-right"></i><strong>Age :</strong>
+                                            <span>23</span></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><strong>Degree :</strong>
+                                            <span>BE Computer Science</span></li>
+                                        <li><i class="fa-solid fa-angle-right"></i><strong>Freelance :</strong>
+                                            <span>Available</span></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>            
+
+            <!-- Skill Section -->
+            <article id="skill">
+                <!-- Heading for the skill section -->
+                <h1 class="subHeading">Skills</h1>
+                <!-- Divider for visual separation -->
+                <div class="divider"></div>
+                <!-- Paragraph describing front-end development expertise -->
+                <p>
+                    <strong class="skill__strong">Front-end Development Expertise</strong> : Having strong skills in front-end technologies, creating visually stunning and interactive user interfaces. My proficiency in HTML, CSS, and JavaScript enables me to craft seamless and engaging web experiences.
+                </p>
+                <!-- Paragraph describing software engineering proficiency -->
+                <p>
+                    <strong class="skill__strong">Software Engineering Proficiency</strong> : As a Software Engineer, I've showcased my abilities in diverse projects, demonstrating expertise in key technical skills. my focus on Junit testing, Automation Engineering, and proficiency in Python frameworks such as pandas and matplotlib highlight my versatility in software development.
+                </p>
+                <!-- Paragraph describing data science and documentation skills -->
+                <p>
+                <strong class="skill__strong"> Data Science and Documentation </strong>: My experience extends to data science, where I specialize in model-building techniques like logistic regression and XGBoost algorithms. I've contributed significantly to documentation initiatives, showcasing my commitment to clear and comprehensive communication through tools like Sphinx documentation and Jupyter Book.
+                </p>
+                <!-- Skill row containing individual skill boxes -->
+                <div class="skill-row">
+                    <!-- Skill row containing individual skill boxes -->
+                    <!-- Individual skill box for HTML -->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>HTML</h2>
+                            <h2>85%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <!-- Individual skill box for CSS3 -->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>CSS &amp; CSS3</h2>
+                            <h2>%85</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <!-- Individual skill box for JAVASCRIPT -->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>JAVASCRIPT</h2>
+                            <h2>85%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line" style="width:85%"></div>
+                        </div>
+                    </div>
+                    <!-- Individual skill box for GIT and GITHUB -->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>GIT &amp; GITHUB</h2>
+                            <h2>100%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line" style="width:100%"></div>
+                        </div>
+                    </div>
+                    <!-- Individual skill box for Agile Methodologies -->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>AGILE METHODOLOGIES</h2>
+                            <h2>80%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line" style="width:80%"></div>
+                        </div>
+                    </div>
+                    <!-- Individual skill box for JSON -->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>JSON</h2>
+                            <h2>100%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line" style="width:100%"></div>
+                        </div>
+                    </div>
+                    <!-- Individual skill box for Boostrap -->
+                    <div class="skill-box">
+                        <div class="skill-info">
+                            <h2>Boostrap</h2>
+                            <h2>75%</h2>
+                        </div>
+                        <div class="skill-outer-line">
+                            <div class="skill-inner-line" style="width:75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Resume Section -->
+            <article id="resume">
+                <!-- Heading for the resume section -->
+                <h1 class="subHeading">Resume</h1>
+                <!-- Divider for visual separation -->
+                <div class="divider"></div>
+                <!-- Paragraph describing about resume -->
+                <p>
+                    An accomplished and versatile professional with a strong foundation in web development, software engineering, and data science. I bring expertise in creating visually appealing and interactive user interfaces using HTML, CSS, and JavaScript. As a Software Engineer, I've demonstrated proficiency in diverse projects, showcasing skills in Junit testing, Automation Engineering, and Python frameworks. Additionally, my experience extends to data science, specializing in model-building techniques and contributing to comprehensive documentation initiatives.
+                </p>
+                <div class="resume-row">
+                    <!-- Left Cols -->
+                    <div class="resume-cols">
+                        <!-- Summary -->
+                        <h2>Summary</h2>
+                        <div class="my-info">
+                            <h3>YuvaShree R A</h3>
+                            <p>
+                                Adaptable Software Engineer for Web Development
+                            </p>
+                            <ul>
+                                <li>3/189 pandian nagar 7th street</li>
+                                <li>Madurai-625007</li>
+                                <li>+91 7708433175</li>
+                                <li>yuvashreera@gmail.com</li>
+                            </ul>
+                        </div>
+                        <!-- Education -->
+                        <h2>Education</h2>
+                        <div class="my-edu">
+                            <h3>Bachelor of Engineering</h3>
+                            <span class="pursued-date">August-2018 - June 2022</span>
+                            <p>
+                                Pursued Bachelor of Engineering (BE) in Computer Science and
+                                Engineering at K L N College of Engineering, Sivagangai, Tamil
+                                Nadu.
+                            </p>
+                            
+                        </div>
+
+
+                    </div>
+                    <!-- Right Cols -->
+                    <div class="resume-cols">
+                        <!-- Professional Experience -->
+                        <h2>Professional Experience</h2>
+                        <div class="prof-exp">
+                            <h3>Software Engineer</h3>
+                            <span class="pursued-date">June 2022 - July 2023</span>
+                            <p>
+                                As a Software Engineer, I showcased proficiency in Python frameworks, model-building techniques, and contributed to documentation initiatives, preparing me for future challenges in software development and data science.
+                            </p>
+                        </div>
+                        <div class="prof-exp">
+                            <h3>Software Engineer Intern</h3>
+                            <span class="pursued-date">July 2022 - June 2022</span>
+                            <p>
+                                Worked as a Software Engineer Intern with a specialized focus on Junit testing and Automation Engineering, cultivated during my internship at Applied Data Finance. My hands-on experience includes mastering these key technical skills and actively contributing to projects that demanded a deep understanding of testing methodologies and automation frameworks. This internship has equipped me with a robust foundation in software testing and automation, laying the groundwork for my proficiency in these areas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Portfolio Section -->
+            <article  id="portfolio">
+                <!-- Heading for the portfolio section -->
+                <h1>Portfolio</h1>
+                <!-- Divider for visual separation -->
+                <div class="divider"></div>
+                <!-- Paragraph describing about portfolio -->
+                <p>
+                    I love building beautiful and user-friendly websites using HTML, CSS, and JavaScript. I'm also skilled in software engineering and enjoy working on diverse projects, bringing creativity and technical expertise to each endeavor.                
+                </p>
+                <!-- Individual Portfolio Items -->
+                <div class="portfolio-row">
+                    <!-- Item 1 - Food Court -->
+                    <div class="portfolio-item">
+                        <figure class="portfolio-img">
+                            <img src="./images/foodcourt.png" alt="Food Court">
+                        </figure>
+                        <div class="portfolio-info">
+                            <h3>Food Court</h3>
+                            <p>
+                                In my Food Court project, I crafted an engaging online platform for food enthusiasts. Utilizing my expertise in front-end development, I created visually appealing interfaces with seamless navigation. The project showcases my skills in web design and development, offering users a delightful experience in exploring and ordering from a variety of delectable food options.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Contact Section -->
+            <article  id="contact">
+                <!-- Heading for the contact section -->
+                <h1>Contact</h1>
+                <!-- Divider for visual separation -->
+                <div class="divider"></div>
+                <!-- Paragraph describing about contact -->
+                <p>
+                    For contact details, feel free to reach out to me.I'm based in Madurai, Tamil Nadu, India, and look forward to connecting with you.              
+                </p>
+                <!-- Individual Conatct Items -->
+                <div class="contact-row">
+                    <!-- Left Contact -->
+                    <div class="contact-left">
+                        <!-- Email -->
+                        <div class="icon-box">
+                            <!-- Email Icon -->
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <!-- Email Details -->
+                            <div class="icon-info">
+                                <h3>Email:</h3>
+                                <p>yuvashreera@gmail.com</p>
+                            </div>
+                        </div>
+                        <!-- Call -->
+                        <div class="icon-box">
+                            <!-- Email Icon -->
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <!-- Email Details -->
+                            <div class="icon-info">
+                                <h3>Call:</h3>
+                                <p>+91 7708433175</p>
+                            </div>
+                        </div>
+                        <!-- Location -->
+                        <div class="icon-box">
+                            <!-- Location Icon -->
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <!-- Location Details -->
+                            <div class="icon-info">
+                                <h3>Location:</h3>
+                                <p>Surveyor Colony,     Madurai, TamilNadu, India.</p>
+                            </div>
+                        </div>
+                        <!-- Map  -->
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.6836143024057!2d78.14936357479304!3d9.960259540143115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c67f4a25733d%3A0x604b65da9b652e6d!2sSurveyor%20Colony%2C%20Lourdhu%20Nagar%2C%20Madurai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1708669917638!5m2!1sen!2sin" width="100%" height="250" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    
+                    <!-- Contact Right -->
+                    <div class="contact-right">
+                        <form action="">
+                            <input type="text" name="name" id="name" placeholder="Your Name">
+                            <input type="email" name="email" id="email" placeholder="Your Email Address">
+                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                            <textarea name="msg" id="msg" rows="9" placeholder="Your Message"></textarea>
+                            <input type="submit" value="Send Message">
+                        </form>
+                    </div>
+                </div>
+                        
+                               
+            </article>
+        </main>
+    </body>
+</html>
