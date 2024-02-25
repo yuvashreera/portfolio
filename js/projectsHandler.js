@@ -22,7 +22,7 @@ export function projectItems(){
             <div class="portfolio-info">
                 <h3>${project.projectName}</h3>
                 <p>${project.description}</p>
-                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                <a href="https://yuvashreera.github.io/E-commerce-Website---Food-Court/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
             </div>
         `;
         // Appending the projects in the container
